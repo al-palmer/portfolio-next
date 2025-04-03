@@ -1,14 +1,19 @@
 This is a [Next.js](https://nextjs.org) portfolio created by Alex Palmer
 
 ## Getting Started
-First, run the development server:
+First, install the dependencies required:
+
+```bash
+npm i
+```
+
+Next, run the node development server.
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open [http://localhost:3000](http://localhost:3000) with your browser to view the page.
 
 ## Learn More
 
