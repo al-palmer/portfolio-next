@@ -22,6 +22,7 @@ import {
 } from "@/components/ui/accordion"
 
 import { Button } from "@/components/ui/button";
+import FollowCursor from "@/components/ui/cursor";
 
 export default function Home() {
   return (
@@ -52,9 +53,11 @@ export default function Home() {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Button variant="outline" size="icon">
-                  <Github className="h-4 w-4" />
-                </Button>
+                <a href="https://github.com/al-palmer/">
+                  <Button variant="outline" size="icon">
+                    <Github className="h-4 w-4" />
+                  </Button>
+                </a>
               </TooltipTrigger>
               <TooltipContent>
                 <p>GitHub</p>
@@ -62,9 +65,11 @@ export default function Home() {
             </Tooltip>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Button variant="outline" size="icon">
-                  <DownloadCloud className="h-4 w-4" />
-                </Button>
+                <a href="">
+                  <Button variant="outline" size="icon">
+                    <DownloadCloud className="h-4 w-4" />
+                  </Button>
+                </a>
               </TooltipTrigger>
               <TooltipContent>
                 <p>Download CV</p>
@@ -72,9 +77,11 @@ export default function Home() {
             </Tooltip>
             <Tooltip>
               <TooltipTrigger asChild>
-                <Button variant="outline" size="icon">
-                  <Linkedin className="h-4 w-4" />
-                </Button>
+                <a href="https://uk.linkedin.com/">
+                  <Button variant="outline" size="icon">
+                    <Linkedin className="h-4 w-4" />
+                  </Button>
+                </a>
               </TooltipTrigger>
               <TooltipContent>
                 <p>LinkedIn</p>
@@ -108,6 +115,7 @@ export default function Home() {
       </div>
       
       <Footer />
+      <FollowCursor />
     </div>
   );
 }
